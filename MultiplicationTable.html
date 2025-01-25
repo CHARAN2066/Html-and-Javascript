@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        button
+        {
+            padding: 10px 20px;
+            font-size: 25px;
+            cursor:pointer;
+        }
+        .test{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+    </style>
+    <head>
+        <h1 style="text-align: center;"><u>Multiplication Table:</u></h1>
+        <br>
+    </head>
+    <body style="background-color:aqua;">
+        <div class="test">
+        <form>
+            <label style="font-size:xx-large;" for="number"><b>Enter the number</b> </label>
+            <input type="text" id="number" name="number" placeholder="Enter the number">
+            <br><br>    
+            <label style="font-size:xx-large;" for="steps"><b>Enter the number of steps</b> </label>
+            <input type="text" id="steps" name="steps" placeholder="Enter the steps">
+            <br><br>
+            <button type="button" onclick="printNumber()">Print Table</button>
+        </form>
+        <div id="result"></div>
+        </div>
+        <script src="multiplyJavaScript.js"></script>
+    </body>
+</html>
